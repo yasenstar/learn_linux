@@ -1,5 +1,15 @@
 # Usage Log for Fedora
 
+## Add Wireless Connection with `nmcli` in Command Line
+
+Once you installed Fedora server and reboot, you'll be by default in CLI environment, if you change to a new place, you need to add new wireless connection, here is the command line approach.
+
+```bash
+nmcli device wifi connect "<wifi SSID>" password xxxxxxxxxx
+```
+
+
+
 ## Adding Graphical Interface in Fedora Server from CLI
 
 1. Determine available graphical desktops
